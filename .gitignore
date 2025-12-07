@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------- #
+#                  GENERAL NODE / JAVASCRIPT
+# ---------------------------------------------------------------- #
+# Dependencies
+/node_modules
+/node_modules/*
+# Ignores nested node_modules directories that might exist inside sub-packages or client/server folders
+**/node_modules
+**/node_modules/*
+
+# Build outputs
+/dist
+/build
+/out
+/npm-debug.log
+/yarn-debug.log
+
+# IDE and OS files
+.DS_Store
+*.log
+
+# ---------------------------------------------------------------- #
+#                  SENSITIVE DATA / SECRETS
+# ---------------------------------------------------------------- #
+# Environment variables (Crucial for API keys and private keys)
+.env
+.env.*
+.env.local
+
+# ---------------------------------------------------------------- #
+#                  SMART CONTRACT DEVELOPMENT
+# ---------------------------------------------------------------- #
+# Solidity compilation output (Bytecode, ABI, etc.)
+/artifacts
+/cache
+/coverage
+/typechain
+/ignition
+
+# ---------------------------------------------------------------- #
+#                  LOCAL/STATE FILES
+# ---------------------------------------------------------------- #
+# Terraform, state files, or local dependency management
+.states
+.deps
