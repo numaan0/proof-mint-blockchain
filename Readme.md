@@ -3,7 +3,7 @@
 
 > **Bridging Web2 Reputation to Web3 Liquidity using Flare FTSO & FDC.**
 
-**ProofMint** is an on-chain lending protocol designed specifically for the gig economy (Swiggy, Zomato, Uber drivers).
+**ProofMint** is an on-chain lending protocol designed specifically for the gig economy (Swiggy, Zomato, Uber drivers, Freelancers).
 It allows workers to verify their off-chain earnings on the blockchain and access instant, under-collateralized loans—without needing a bank account or even gas fees.
 
 ---
@@ -158,7 +158,7 @@ npm run dev
 
 ## 👥 Team
 
-* **Your Name** - Full Stack Blockchain Developer
+* Numan Nayeem - Full Stack Developer
 
 ---
 
