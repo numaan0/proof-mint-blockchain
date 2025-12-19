@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://proofmintapi.onrender.com",
 });
 
 export const generateCode = () => API.get("/generate-code");

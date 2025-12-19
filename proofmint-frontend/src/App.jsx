@@ -9,7 +9,7 @@ import WorkerPanel from "./components/WorkPanel";
 // --- CONFIGURATION ---
 // ⚠️ REPLACE THIS WITH YOUR NEW CONTRACT ADDRESS IF IT CHANGES
 const POOL_ADDRESS = "0x2D1AAEB733Fd4D9AAD8fa574E37258694c657ecd"; 
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://proofmintapi.onrender.com";
 
 // --- FINAL ABI ---
 const POOL_ABI = [
